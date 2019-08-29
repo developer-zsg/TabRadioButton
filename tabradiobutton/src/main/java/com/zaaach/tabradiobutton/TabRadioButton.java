@@ -90,7 +90,7 @@ public class TabRadioButton extends android.support.v7.widget.AppCompatRadioButt
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        this.performClick();
+        
         switch (event.getAction()){
             case MotionEvent.ACTION_DOWN:
                 //手指按下时开始动画
